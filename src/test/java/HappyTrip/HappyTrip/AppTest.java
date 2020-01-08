@@ -1,5 +1,6 @@
 package HappyTrip.HappyTrip;
-
+
+
 import static org.testng.Assert.assertEquals;
 
 import org.openqa.selenium.By;
@@ -18,7 +19,7 @@ public class AppTest {
 	@Test
 	public void verifyMessage() {
 		
-		System.setProperty("webdriver.chrome.driver", "D:\\chromedriver_win32 (1)/chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", ".\Resources\chromedriver.exe");
 
 		 driver = new ChromeDriver();
 		 driver.get("http://localhost:8085/happytrip/home.html");
