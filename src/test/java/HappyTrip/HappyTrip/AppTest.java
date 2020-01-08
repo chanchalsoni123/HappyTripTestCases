@@ -19,7 +19,7 @@ public class AppTest {
 	@Test
 	public void verifyMessage() {
 		
-		System.setProperty("webdriver.chrome.driver", ".\Resources\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "./Resources/chromedriver.exe");
 
 		 driver = new ChromeDriver();
 		 driver.get("http://localhost:8085/happytrip/home.html");
